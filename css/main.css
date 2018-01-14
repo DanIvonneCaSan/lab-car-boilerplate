@@ -289,3 +289,46 @@ span>img {
   height: 70vh;
   padding: 0;
 }
+ /* Modales */
+/* Inicio sesión */
+ form > p {
+   color: black;
+ }
+
+ form > p > a {
+   color: #FF1F1F;
+ }
+
+ .modal1 {
+   background-color: #FFC107;
+   color: white;
+   margin: 5%;
+   margin-left: 35%;
+ }
+
+ .modal-content {
+   background-color: #FFC849;
+ }
+
+ .modal-header > img {
+   width:40%;
+ }
+
+ .well{
+   width: 60%;
+   margin: 10%;
+   margin-left: 20%;
+ }
+
+ .well > form > .form-group > input{
+   background-color: #E8E5E5;
+ }
+/* Modal Registro */
+.btnm2{
+  background-color: black;
+  color: white;
+}
+.inputname, .inputlastnm {
+  width: 46%;
+  margin: 2% 2% 2% 0;
+}
