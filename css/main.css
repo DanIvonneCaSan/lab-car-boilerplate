@@ -52,7 +52,7 @@ span>img {
 }
 
 #map {
-  height: 60vh;
+  height: 50vh;
   width: 100%;
 }
 
@@ -63,7 +63,7 @@ span>img {
 }
 
 .boxtext3>p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .boxtext3>p>.btn {
@@ -205,8 +205,8 @@ span>img {
 .maparea {
   border: 1px solid white;
   padding: 1%;
-  margin-top: 5%;
-  width: 35%;
+  margin-bottom: 10%;
+  margin-top: 6%;
 }
 
 .mediaarea {
@@ -218,6 +218,14 @@ span>img {
   background-color: white;
 }
 
+.navbar-fixed-top{
+  padding: 0;
+  padding-bottom: 2%;
+}
+
+.navbarcfg {
+  float: left;
+}
 .row {
   margin: 0;
   padding: 0;
@@ -236,7 +244,7 @@ span>img {
 
 .scndsection>.row>.col-lg-9>.col-lg-4>p {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   padding-bottom: 10%;
 }
@@ -290,6 +298,53 @@ span>img {
   padding: 0;
 }
 
+/* Mobile */
+
+#imglogomb {                          /*Estilos de firstsection para mobile imagenlogo*/
+  padding-left: 4%;
+  width: 30%;
+}
+
+.firstsection > .row> .firstsmob {    /*Estilos de firstsection para mobile*/
+  margin-top: 35vh;
+  width: 80%;
+  margin-left: 20%;
+}
+
+#firstsecmed{
+  float: right;
+  width: 60%;
+}
+/* Estilos segunda sección mobile */
+.sec2mb {
+  border: 2px solid white;
+  margin: 2%;
+}
+
+.sec2mb > h2 {
+  font-size: 18px;
+}
+.sec2mb > img {
+  padding: 5%;
+  width: 100%;
+}
+
+/* Footer mobile estilos */
+
+.footer1 {
+  background-color: #2B2B2B;
+  padding: 4%;
+}
+.col-sm-12, .col-sm-3{
+  margin: 0;
+  padding: 0;
+}
+
+.col-sm-3 > .nav > li > a{
+  margin: 0;
+  padding: 4% 0;
+
+}
  /* Modales */
 /* Inicio sesión */
  form > p {
