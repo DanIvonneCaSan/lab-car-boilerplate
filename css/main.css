@@ -344,7 +344,10 @@ span>img {
 .col-sm-3 > .nav > li > a{
   margin: 0;
   padding: 4% 0;
+}
 
+.media1{
+  margin-bottom: 10%;
 }
  /* Modales */
 /* Inicio sesión */
