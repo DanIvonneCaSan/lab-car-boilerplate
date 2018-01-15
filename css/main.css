@@ -289,6 +289,7 @@ span>img {
   height: 70vh;
   padding: 0;
 }
+
  /* Modales */
 /* Inicio sesión */
  form > p {
@@ -297,6 +298,10 @@ span>img {
 
  form > p > a {
    color: #FF1F1F;
+ }
+
+ .input-group .form-control:lastchild{
+   border-radius: 5px;
  }
 
  .modal1 {
@@ -321,14 +326,104 @@ span>img {
  }
 
  .well > form > .form-group > input{
-   background-color: #E8E5E5;
+   background-color: #cbccc9;
+   border-radius: 5px;
  }
+
 /* Modal Registro */
-.btnm2{
+.btncnt{
   background-color: black;
+  border-radius: 8px;
   color: white;
+  padding: 2%;
+  width: 100%;
 }
-.inputname, .inputlastnm {
-  width: 46%;
+
+.btnmenu{
+  background-color: #DDDDDD;
+  color: black;
+  width: 100%;
+  padding-right: 12%;
+}
+
+.caret{
+  margin:4%;
+}
+
+.iname, .ilastnm {
   margin: 2% 2% 2% 0;
+  border-radius: 5px;
 }
+
+.modal2{
+  background-color: #5BC0DE;
+  color: white;
+  width: 100%;
+}
+
+.modalreg{
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.otherinpt > input{
+  margin: 2% 0;
+}
+
+.sec1reg{
+  width: 100%;
+  margin: 0;
+}
+
+.sec2reg , .sec3reg{
+  display: inline-block;
+  margin: 0;
+  margin-left: 0.2%;
+  width: 49%;
+}
+
+.textm2{
+  color: grey;
+  font-size: 12px;
+  margin-top: 2%;
+}
+
+.wreg{
+   background-color: #A9A9A9;
+ }
+
+/* Modal conductor */
+#carnmb{
+  background-color: grey;
+  font-size: 16px;
+  font-weight: 700;
+}
+.modal3{
+  color: black;
+}
+
+.modalbox3 {
+  padding: 6%;
+  font-size: 16px;
+  background-color: #a8a8a8;
+}
+
+.modal3 > p {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+ .modal3 > select {
+   background: grey;
+   color: white;
+ }
+
+ .modal3 > .note {
+   color: lightgrey;
+   font-size: 10px;
+ }
+
+ .note > a{
+   color: blue;
+ }
